@@ -27,6 +27,3 @@ def extractGoogleAdsReportAPI(reportName, parquetFileName):
 
 def main():
     extractGoogleAdsReportAPI("relatorioDecampanhas", "dados-de-janeiro.parquet")
-
-if __name__ == '__main__':
-    sys.exit(main())
